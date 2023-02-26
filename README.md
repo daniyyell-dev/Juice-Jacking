@@ -19,7 +19,7 @@ Once the code is compiled, you can upload it to the microcontroller and connect 
 The hardware requirements for this code are as follows:
 
     A device running a Unix-based operating system such as Linux with the following tools installed:
-        1. A C compiler (such as gcc)
+       1. A C compiler (such as gcc)
        2. The wget command-line tool
        3. The adb (Android Debug Bridge) command-line tool
 
