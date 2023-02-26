@@ -14,6 +14,19 @@ To use this code, you will need a microcontroller with USB capabilities, as well
 
 Once the code is compiled, you can upload it to the microcontroller and connect it to the charging station. When a victim plugs their device into the charging station, the attack will begin automatically and attempt to steal sensitive data from the victim's device.
 
+# Hardware Requiremnts 
+
+The hardware requirements for this code are as follows:
+
+    A device running a Unix-based operating system such as Linux with the following tools installed:
+        1. A C compiler (such as gcc)
+       2. The wget command-line tool
+       3. The adb (Android Debug Bridge) command-line tool
+
+    An Android device to be targeted by the malware, connected to the Unix-based device via USB cable or Wi-Fi.
+
+    A computer or server with an IP address of "192.168.1.10" and a listener running on port 4444 to receive the reverse shell connection from the malware.
+
 # Disclaimer
 
 This code is provided for educational and research purposes only, and should not be used to harm others or engage in illegal activities. The author assumes no responsibility for any damages or consequences that may result from the use of this code. Always use this code responsibly and follow responsible disclosure practices when reporting vulnerabilities to software vendors.
